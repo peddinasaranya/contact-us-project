@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US | ISTE NIT DURGAPUR</title>
+</head>    
+<style>
+ body {
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#f8f9fa;
+}
+header{
+    text-align:center;
+     
+     font-size:24px;
+     
+     
+     padding-bottom:0;
+     line-height:1;
+}
+.heading
+{
+    color:#007bff;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+
+    padding:0;
+    max-width:100%;
+    margin:0 auto;
+    gap:10px;
+    padding-left:30px;
+    
+}
+
+.contact-info{
+    justify-content: left;
+    padding:20px;
+    margin-top:80px;
+    margin-left: 0;
+    line-height:2.5;
+    width:40%;
+    text-align:left;
+    height: 50vh;
+}
+.contact-info h2{
+    color:#007bff;
+    font-size:28px;
+    margin:0;   
+}
+.contact-info p{
+    font-size:16px;
+    margin:5px 0;
+
+}
+.contact-form{
+    margin-top: 20px;
+    width:40%;
+    text-align:center;
+    background-color:#f8f9fa;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-bottom: 10px;
+    border-radius:8px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.6);
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-form input {
+    width:90%; 
+    padding:20px;
+    margin:10px ;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:20px;
+
+}
+.contact-form textarea{
+    width:90%;
+    padding:20px;
+    margin:10px ;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:20px;
+}
+.contact-form button{
+    background-color:#007bff;
+    color:white;
+    border:none;
+    padding:10px;
+    width:100%;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:18px;
+}
+.contact-form button:hover{
+    background-color:#0056b3;
+}
+@media(max-width:768px) 
+{ 
+    .container{
+
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding: 0;
+        margin: 0 auto;
+        gap:0;
+    }
+    .contact-info{
+       margin-top:2px;
+        width:90%;
+        line-height:2;
+    
+    }
+    .contact-form{
+        margin-top:0;
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 90%;
+
+        
+    }
+    .contact-form textarea{
+        line-height:2;
+        padding:20px;
+        height:90px;
+    
+        
+
+    }
+    
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>CONTACT<span class="heading"> US</span></h1>
+      </header>
+      <div class="container">
+      <section class="contact-info">
+        <div>
+            <h2>&#128205; LOCATION</h2>
+        <p>National Institute of Technology Durgapur,West Bengal,India</p>
+        <h2>&#128222; Contact Info</h2>
+        <p>Priyanshu Kumar:<a href="tel:+917979701226">+917979701226</a></p>
+        <p>Ayush Anand:<a href="tel:+918076085724">+918076085724</a></p>
+        <h2>&#128231;Mail Info</h2>
+        <p><a href="mailto:istenitdurgapur@gmail.com">istenitdurgapur@gmail.com</a></p>
+
+        </div>
+         
+    
+      </section>
+      <section class="contact-form">
+        <form action="#" method="post">
+            <input type="text"name="name" placeholder="your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="tel" placeholder="Your Phone" required>
+            <textarea name="message" placeholder="Your Message" rows="6" required ></textarea>
+            <button type="submit">Send Message</button>
+            
+        </form>    
+    </section>
+      </div>
+</body>
